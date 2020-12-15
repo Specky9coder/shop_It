@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_it/Screens/products_overview_screen.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -7,8 +8,11 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Shop It'),
       ),
-
-      body: Center(child: const Text('Let\'s Shop!'),),
+      body: Center(
+        child: const Text('Let\'s Shop!'),
+      ),
     );
+
+
   }
 }
